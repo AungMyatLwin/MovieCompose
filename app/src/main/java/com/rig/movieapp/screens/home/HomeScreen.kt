@@ -25,10 +25,10 @@ fun HomeScreen(navController:NavController){
     Scaffold(topBar ={
         TopAppBar(title = {  Text(text = "Movies") },
             colors = TopAppBarDefaults.smallTopAppBarColors(
-                containerColor = Color.Magenta
+                containerColor = Color.LightGray
             ))
 
-    }, modifier = Modifier.background(Color.Magenta))
+    })
     {
             it-> Column(modifier = Modifier.padding(it)) {
                 MainContent(navController)
